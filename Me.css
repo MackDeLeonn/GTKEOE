@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(192, 192, 192);
+}
+
+.One{
+    text-align: center;
+}
+
+Img.One{
+    width: 20%;
+    height: 20%;
+}
+
+.TextBox{
+border: 3px rgb(91, 4, 103);
+text-align: center;
+}
+
+.TextBox h2{
+    color: rgb(54, 0, 61);
+}
+
+div.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  
