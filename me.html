@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<script type="text/javascript" src="scripts.js"></script>
 <link rel="stylesheet" href="Me.css">
 
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Getting To Know Eachother</title>
     </head>
 
     <body>
-        <div class="One"><h1>Mackenzie DeLeon</h1>
+        <div class="One">
+            <h1 id="name">Mackenzie DeLeon</h1>
             
         <h3>Email Address: 
             <a href="mailto:mackenziemdeleon@lewisu.edu" target=_blank>
@@ -49,5 +50,12 @@
                       </div>
                 </p>
             </div>
+                <script>
+                    const nameElement = document.getElementById('name');
+                    nameElement.addEventListener('click', function() {
+                        const favoriteColor = 'purple';
+                        nameElement.style.color = favoriteColor;
+                    });
+                </script>
     </body> </div>
 </html>
